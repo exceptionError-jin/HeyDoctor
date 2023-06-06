@@ -1,12 +1,15 @@
 # HeyDoctor
-주니어 스펙업 프로젝트 - 'JoongShin'
+비대면 사전 진료 서비스 - 'HeyDoctor'
+
 <h1> 1. 기획 의도</h1> <br>
 <p align="center">
-  <img src="https://github.com/web-jsp-project-joongshin/joongshin/assets/129862445/615a88d1-25d2-4922-94bd-886d0c025564">
+  <img width="513" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/2c81e0a3-493a-4fc2-8c53-27e668ba332e">
 </p>
 <p align="center">
-  <img src="https://github.com/web-jsp-project-joongshin/joongshin/assets/129862445/bdd181a3-df22-4f7a-aaff-5b77551092f4">
+  <img width="510" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/c113ac43-c8c0-4445-8ef4-d7c132d4f575">
 </p>
+
+
   경력있는 신입을 뽑는 추세가 높아져 취업이 힘들어지는 신입(주니어)들을 위해 경력을 쌓아 니즈를 충족하자는 목적으로 만들게 되었습니다.
   
 <h1> 2. 기대 효과</h1> <br>
