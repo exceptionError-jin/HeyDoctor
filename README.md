@@ -37,7 +37,7 @@
 - KAKAO Login API<br>
   
 <h1> 4. ERD</h1> <br>
-  <img width="716" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/1654317d-9cc6-4e6b-8f3b-46783e188b3e">
+  <img width="1080" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/1654317d-9cc6-4e6b-8f3b-46783e188b3e">
 
 <h1> 5. 담당 업무</h1> <br>
   5-1 퍼블리싱
