@@ -3,10 +3,10 @@
 
 <h1> 1. 기획 의도</h1> <br>
 <p align="center">
-  <img width="513" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/2c81e0a3-493a-4fc2-8c53-27e668ba332e">
+  <img width="981" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/2c81e0a3-493a-4fc2-8c53-27e668ba332e">
 </p>
 <p align="center">
-  <img width="506" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/2c07b55e-9bb5-42bd-8d32-4a5ffb646e71">
+  <img width="981" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/2c07b55e-9bb5-42bd-8d32-4a5ffb646e71">
 </p>
 
   지방 지역의 병원 접근성 문제를 해결하기 위해 의사와의 간단한 상담과 방문 예약 진료를 통해 병원에 가기 힘든 사람들의 니즈를 해결하기 위해 만들게 되었습니다.
@@ -43,16 +43,10 @@
   5-1 퍼블리싱
   <img width="981" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/17b47e74-4cf8-42e0-976c-9de285bf5206">
   
-  ▶ 이용자 마이페이지 & 주니어 마이페이지<br>
-  
-  ▶ 이용자 계정설정 & 주니어 계정 설정<br>
-  
-  ▶ 작성글 목록<br>
-    쪽지 목록<br>
-    이름 변경<br>
-    이메일 변경<br>
-    비밀번호 변경<br>
-    클릭시 탈퇴<br>
+  ▶ 진료희망 글 목록<br>
+  출장의사 예약 목록<br>
+  상세보기<br>
+  예약보기<br>
   
   5-2 백엔드<br>
   <img width="981" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/ea490151-db3c-422c-a7c8-5b8f4fdee3c8">
