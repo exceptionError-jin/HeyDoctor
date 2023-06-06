@@ -41,7 +41,7 @@
 
 <h1> 5. 담당 업무</h1> <br>
   5-1 퍼블리싱
-  <img width="981" src="https://github.com/exceptionError-jin/JoongShin/assets/129862445/96224709-43d6-42b1-97e4-e08b8318a7bd">
+  <img width="981" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/17b47e74-4cf8-42e0-976c-9de285bf5206">
   
   ▶ 이용자 마이페이지 & 주니어 마이페이지<br>
   
@@ -55,6 +55,7 @@
     클릭시 탈퇴<br>
   
   5-2 백엔드<br>
+  <img width="981" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/ea490151-db3c-422c-a7c8-5b8f4fdee3c8">
   
   ▶ 회원가입(이용자, 주니어)<br>
   아이디, 이메일 중복 검사<br>
