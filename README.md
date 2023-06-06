@@ -6,7 +6,7 @@
   <img width="513" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/2c81e0a3-493a-4fc2-8c53-27e668ba332e">
 </p>
 <p align="center">
-  <img width="510" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/c113ac43-c8c0-4445-8ef4-d7c132d4f575">
+  <img width="506" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/2c07b55e-9bb5-42bd-8d32-4a5ffb646e71">
 </p>
 
 
