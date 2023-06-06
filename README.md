@@ -9,12 +9,14 @@
   <img width="506" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/2c07b55e-9bb5-42bd-8d32-4a5ffb646e71">
 </p>
 
-
-  경력있는 신입을 뽑는 추세가 높아져 취업이 힘들어지는 신입(주니어)들을 위해 경력을 쌓아 니즈를 충족하자는 목적으로 만들게 되었습니다.
+  지방 지역의 병원 접근성 문제를 해결하기 위해 의사와의 간단한 상담과 방문 예약 진료를 통해 병원에 가기 힘든 사람들의 니즈를 해결하기 위해 만들게 되었습니다.
   
 <h1> 2. 기대 효과</h1> <br>
-  그에 따른 기대효과로는 주니어들은 경력을 쌓아 니즈를 충족할 수 있게 되고,<br>
-  소비자들은 싼 가격으로 서비스를 받아 니즈를 충족할 수 있게 되는 1석2조의 효과를 볼 수 있습니다.
+  오지에 있거나 거동이 불편한 환자 방문 진료 가능<br>
+  온라인 문답 시 다양한 소견<br>
+  신뢰도 있는 전문의 답변<br>
+  휴일 등 방문 진료를 통한 수익 창출<br>
+  질문 문답으로 인한 병원, 및 의사의 광고 효과<br>
   
 <h1> 3. 프로젝트 사용 툴</h1> <br>
 - Java<br>
@@ -22,18 +24,20 @@
 - tomcat<br>
 - jQuery<br>
 - MyBatis<br>
-- jsp<br>
-- MySQL<br>
-- Eclipse<br>
+- SpringBoot<br>
+- ORACLE<br>
+- IntelliJ<br>
 - DBeaver<br>
 - git, github<br>
 - JSON<br>
 - Ajax<br>
 - JDK 11.0.15<br>
-- SMTP Gmail API
+- NAVER Mail API<br>
+- NAVER Login API<br>
+- KAKAO Login API<br>
   
 <h1> 4. ERD</h1> <br>
-  <img width="782" alt="joongshin_erd" src="https://github.com/exceptionError-jin/JoongShin/assets/129862445/7af59c2b-66e2-4202-9419-5eca041b6256">
+  <img width="716" src="https://github.com/hey-docter/hey-Doctor/assets/129862445/1654317d-9cc6-4e6b-8f3b-46783e188b3e">
 
 <h1> 5. 담당 업무</h1> <br>
   5-1 퍼블리싱
