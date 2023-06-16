@@ -1,5 +1,5 @@
 
-//두번째 버
+//두번째 모달
 
 // 전체 동의 체크박스 변경 이벤트를 감지하는 함수
 function handleCheckAllCheckbox() {

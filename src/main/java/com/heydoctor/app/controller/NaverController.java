@@ -24,13 +24,11 @@ public class NaverController {
     private LoginPageService loginPageService;
     private final UserMapper userMapper;
 
-
-    @GetMapping("/login/navera")
+//네이버 로그인 클릭시 이동
+    @GetMapping("/login/naver")
     @ResponseBody
     public String joinNaver(@RequestParam(value="email", required=false) String email,@RequestParam(value="name", required=false)String name,@RequestParam(value="id", required=false) String id, HttpSession session) {
-        log.info("들옴");
         UserVO userVO = new UserVO();
-
 
         Optional<UserVO> foundId = loginPageService.checkEmail(email);
         if(foundId.isPresent()){
@@ -59,6 +57,7 @@ public class NaverController {
         return "/main-page/main-page";
     }
 
+    //네이버 로그아웃
     @GetMapping("/logout/naver")
     public RedirectView naverLogout(HttpSession session){
         log.info("logout");

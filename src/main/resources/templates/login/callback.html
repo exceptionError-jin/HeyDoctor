@@ -23,7 +23,7 @@
         // 이메일 값이 비어 있지 않은 경우에만 서버로 데이터 전송
 
         $.ajax({
-            url: '/login/navera',
+            url: '/login/naver',
             type: 'GET',
             data: {
                 email: email,
@@ -39,9 +39,7 @@
                 console.error('프로필 데이터 저장 중 오류가 발생했습니다:', error);
             }
         });
-
     }
-
     // 네이버 사용자 프로필 조회
     naver_id_login.get_naver_userprofile("naverSignInCallback()");
 </script>

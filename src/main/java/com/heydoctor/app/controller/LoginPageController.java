@@ -25,14 +25,14 @@ public class LoginPageController {
         this.loginPageService = loginPageService;
     }
 
-    //    이메일 중복검사
+    //이메일 중복검사
     @GetMapping("check-email/{userEmail}")
     @ResponseBody
     public boolean checkId(@PathVariable String userEmail){
         return loginPageService.checkEmail(userEmail).isPresent();
     }
 
-//    회원가입
+    //회원가입
     @GetMapping("register")
     public void goToJoinForm(UserVO userVO){;}
 
@@ -43,13 +43,11 @@ public class LoginPageController {
         return new RedirectView("/login/login");
     }
 
-
-
-//    로그인 스타트 이동
+    //로그인 스타트 이동(로그인으로 가게 해주는 페이지)
     @GetMapping("login-start")
     public void goToLoginStartForm(){;}
 
-//    로그인
+    //로그인
     @GetMapping("login")
     public void goToLoginForm(UserVO userVO){;}
 
@@ -69,7 +67,6 @@ public class LoginPageController {
         redirectAttributes.addFlashAttribute("login", "fail");
         return new RedirectView("/login/login");
     }
-
 
     //    로그아웃
     @GetMapping("logout")

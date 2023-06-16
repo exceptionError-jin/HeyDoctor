@@ -40,7 +40,7 @@ public class QuestionController {
         Optional.ofNullable(questionId).flatMap(questionService::read).ifPresent(questionDTO -> {
             List<AnswerDTO> answers = answerService.getAllAnswer(0, questionId);
             List<ReplyDTO> replies = replyService.getAllReplyDTO(answers.stream().map(AnswerDTO::getAnswerId).collect(Collectors.toList()));
-            UserVO userVO = /*WIP*/userMapper.selectById(userId).get()/*session.getAttribute("user")*/ ;
+            UserVO userVO = userMapper.selectById(userId).get();
             Integer answerCount = answerService.getCount(questionId);
 
             model.addAttribute("question", questionDTO);

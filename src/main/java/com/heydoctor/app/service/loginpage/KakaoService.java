@@ -31,7 +31,7 @@ public class KakaoService {
         this.userDAO = userDAO;
         this.userMapper = userMapper;
     }
-
+//카카오 API로부터 액세스 토큰을 가져오는 메서드
     public String getKaKaoAccessToken(String code) {
         String access_Token = "";
         String refresh_Token = "";
@@ -82,6 +82,7 @@ public class KakaoService {
         return access_Token;
     }
 
+//카카오 API로부터 사용자 정보를 가져오는 메서드
     public UserVO getKakaoInfo(String token) throws Exception {
         UserVO user = null;
         String reqURL = "https://kapi.kakao.com/v2/user/me";
@@ -125,7 +126,7 @@ public class KakaoService {
                 user.setUserEmail(email);
                 user.setUserPassword(Integer.toString(id));
 
-//                userMapper.kakaoUpdate(user);
+                userMapper.kakaoUpdate(user);
             }
             br.close();
         } catch (IOException e) {
@@ -135,11 +136,12 @@ public class KakaoService {
         return user;
     }
 
-
+//카카오 회원가입
     public void saveUser(UserVO userVO) {
         userDAO.save(userVO);
     }
 
+//카카오 로그아웃
     public void logoutKakao(String token) {
         String reqURL = "https://kapi.kakao.com/v1/user/logout";
         try {

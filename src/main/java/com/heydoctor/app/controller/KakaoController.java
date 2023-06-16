@@ -66,7 +66,6 @@ public class KakaoController {
             session.setAttribute("userId", foundUser2.get().getUserId());
             log.info("세션2: {}", foundUser2.get().getUserId());
 
-
         } catch (Exception e) {
             e.printStackTrace();
             redirectAttributes.addFlashAttribute("login", "fail-kakao");
@@ -74,6 +73,8 @@ public class KakaoController {
         }
         return new RedirectView("/main-page/main-page");
     }
+
+    //카카오 로그아웃
     @GetMapping("/logout/kakao")
     public RedirectView kakaoLogout(HttpSession session){
         log.info("logout");

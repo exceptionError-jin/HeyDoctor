@@ -38,7 +38,7 @@
                             회원가입
                         </div>
                         <div class="register-buttons-container">
-
+                        <!-- 일반 회원가입 -->
                             <div class="register-button c-pointer full email" id="btn-modal">
                                 <div class="register-button-icon">
                                     <img src="https://cdn.comento.kr/icon/icon-email-medium.svg">
@@ -47,7 +47,7 @@
                                     <div class="c-application c-typography c-body1 f-regular"> 이메일로 회원가입하기 </div>
                                 </div>
                             </div>
-
+                            <!-- 카카오 회원가입 -->
                             <form th:action="@{/login/register}" name="join" method="post" th:object="${userVO}">
                                 <div class="register-button c-pointer full kakao">
                                     <div class="register-button-icon">
@@ -60,7 +60,7 @@
                             </form>
                             <!-- 카카오 로그아웃 -->
 <!--                            <a href="https://kauth.kakao.com/oauth/logout?client_id=76a60ca6aa2dea1ac80cdec7ec6060b5&logout_redirect_uri=http://localhost:10000/logout/kakao">카카오 로그아웃</a>-->
-                            <!-- 네이버 로그인 버튼 노출 영역 -->
+                            <!-- 네이버 회원가입 -->
                             <div class="register-button c-pointer full naver show1" onclick="location.href='https://nid.naver.com/oauth2.0/authorize?response_type=token&client_id=0QEJy5lMTxel75jSVhqm&redirect_uri=http%3A%2F%2Flocalhost%3A10000%2Flogin%2Fnaver&state=84966d20-cb02-4435-abb3-68945bedc582'">
                                 <div class="register-button-icon">
                                     <img src="https://cdn.comento.kr/icon/icon-naver-medium.svg" alt>
@@ -69,7 +69,6 @@
                                     <div class="c-application c-typography c-body1 f-regular" style="color: inherit;">네이버로 시작하기</div>
                                 </div>
                             </div>
-                                <!-- //네이버 로그인 버튼 노출 영역 -->
                             <div id="naver_id_login" class="show2"></div>
                         </div>
 
@@ -88,6 +87,7 @@
                             </a>
                         </div>
                     </div>
+                    <!-- 일반 회원가입 모달 정보 -->
                     <form th:action="@{/login/register}" name="join" method="post" th:object="${userVO}">
                         <div class="modal-mask" style="display: none;">
                             <div class="modal-container">

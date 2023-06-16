@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
         // 메일 내용 작성
         MimeMessage createMessage(String to) throws MessagingException, UnsupportedEncodingException;
 
-
         // 랜덤 인증 코드 전송
         String createKey();
 

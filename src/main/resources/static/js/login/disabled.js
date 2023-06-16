@@ -119,7 +119,7 @@ document.getElementById("nextButton").addEventListener("click", function () {
     });
 });
 
-//이메일 중복 검
+//이메일 중복 검사
 function checkEmailDuplication(email) {
     $.ajax({
         url: "/login/check-email/" + email,

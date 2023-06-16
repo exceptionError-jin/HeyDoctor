@@ -1,3 +1,5 @@
+//네이버 로그인 api 이동
+
 var naver_id_login = new naver_id_login("0QEJy5lMTxel75jSVhqm", "http://localhost:10000/login/naver");
 var state = naver_id_login.getUniqState();
 naver_id_login.setButton("white", 3,48);

@@ -17,12 +17,12 @@ import java.security.SecureRandom;
 @Controller
 @RequiredArgsConstructor
 @Slf4j
-public class naver2Controller {
+public class NaverCallbackController {
 
     private String CLIENT_ID = "0QEJy5lMTxel75jSVhqm"; //애플리케이션 클라이언트 아이디값";
     private String CLI_SECRET = "09W0c4sAE4"; //애플리케이션 클라이언트 시크릿값";
 
-
+//네이버 로그인 콜백 처리를 위한 메서드
     @RequestMapping(value="login/naver", method= RequestMethod.GET)
     public String loginPOSTNaver(Model model, HttpSession session)throws UnsupportedEncodingException, UnknownHostException {
         log.info("callback controller");

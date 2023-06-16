@@ -14,7 +14,6 @@ import java.util.Optional;
 public class UserDAO {
 
     private final UserMapper userMapper;
-    private final SqlSession sqlSession;
 
     //    아이디 중복검사
     public Optional<UserVO> findByUserEmail(String userEmail){
